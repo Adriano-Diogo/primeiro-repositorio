@@ -1,0 +1,210 @@
+
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+  }
+  
+
+
+.header {
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    position: relative;
+}
+.imagem {
+    
+    width: 35vh;
+    height: 35vh;
+    border-bottom-right-radius: 100%;
+    background-color: black;
+    position: absolute;
+
+}
+.imagem img{
+    width: 80%;
+    height: 80%;
+    padding-top: 10px;
+    position: absolute;
+    
+}
+
+
+.nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+    
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color:white;
+    font-size: 17px;
+     
+  }
+  
+.nav a:hover {
+    color: #086FC4;
+    font-size: 98%;
+    cursor: pointer;
+    transition: .5s;
+    
+}
+.nav ul {
+    margin: 0 auto;
+    padding: 22px;
+    padding-right: 120px;
+}
+.nav{
+    float: right;
+}
+.conteudo{
+   text-align: left;
+    margin-left: 18%;
+}
+.texto-Cabecalho{
+    width:100%;
+    height: 100%;
+    display: inline-block;
+}
+.texto-Cabecalho h1{
+    float: left;
+    color:black;
+    font-size: 50px;
+    
+    padding-top: 20px;
+    
+}
+.texto-Cabecalho a img{
+    height: 37px;
+    width: 40px;
+    padding-left: 10px;
+    
+}
+
+
+.text {
+    position: absolute;
+    color: #AC000D;
+    font-size: 22px;
+    
+}
+.text h1{
+    padding-left: 30px;
+    padding-top: 50px;
+}
+.text img{
+    width: 25%;
+    height: 25%;
+    
+}
+
+.text-conteudo{
+    
+    display: inline-block;
+    color: #AC000D;
+    text-align: justify;
+    width: 40%;
+    position: absolute;
+    border: solid;
+    border-radius: 40px;
+    margin-left: 95px;
+}
+
+.text-conteudo p{
+ position: relative;   
+ font-size: 20px;
+ color: black;
+ margin-left: 20px;
+ margin-top: 20px;
+ margin-right: 20px;
+ margin-bottom: 20px;
+ z-index: -1;
+}
+.james{
+    
+    position: absolute;
+    color: black;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+.james2{
+    color:#AC000D ;
+    font-weight: lighter;
+}
+pre {
+    margin: 0;
+}
+.james pre{
+    animation: cima .8s alternate infinite ease-in;
+    padding-left: 80px;
+  }
+  
+  
+  
+  @media screen and (min-width:701px) {
+      @keyframes cima {
+          0% {
+              transform: translateY(3%);
+          }
+          100% {
+              transform: translateY(-3%);
+          }
+      }
+    
+      
+  }
+  #nwa pre{
+    animation: cima2 .8s alternate infinite ease-in;
+    padding-left: 80px;
+  }
+  @media screen and (min-width:701px) {
+    @keyframes cima2 {
+        0% {
+            transform: translateY(3%);
+        }
+        100% {
+            transform: translateY(-3%);
+        }
+    }
+}
+
+  .text-conteudo img{
+     margin: auto;
+	position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    height: 40%;
+    width: 30%;
+    opacity: 0.2;
+    z-index: 0;
+    
+  }
+  .text-conteudo img:hover{
+    
+      cursor: pointer;
+      transition: .5;
+      opacity: 0.8;
+      z-index: 2;
+      
+  }
+  .text-conteudo {
+    transition: all 1.0s ease-in-out;
+  }
+  .linha{
+    position: absolute;
+    float: left;
+    margin-top: 50px;
+    width: 80%;
+    
+    
+  }
+  #linha2{
+      width: 80%;
+    margin-top: 80px;
+  }
+  
+  

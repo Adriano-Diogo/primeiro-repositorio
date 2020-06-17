@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.header .container {
+  min-height: 70px;
+}
+
+.header {
+  background-color: #232323;
+  width: 100%;
+  height: 100px;
+  border-bottom: orange 5px solid;
+}
+
+.header span {
+  color: orange;
+}
+
+.titulo {
+  float: left;
+  color: white;
+  margin: auto;
+  padding: 12px;
+}
+
+.nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav ul {
+  margin: 0 auto;
+  padding: 22px;
+}
+
+.nav {
+  float: right;
+}
+
+.imagem {
+  text-align: center;
+  background-image: url("img/team.png");
+  min-height: 400px;
+  
+}
+
+.imagem h1 {
+  margin: 0;
+  padding-top: 80px;
+  font-size: 55px;
+  color: white;
+}
+
+.imagem p {
+  font-size: 20px;
+  color: white;
+}
+.caixa {
+  max-width: 980px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.cabecalho .caixa {
+  min-height: 70px;
+}
+
+.cabecalho {
+  background-color: #232323;
+  width: 100%;
+  height: 100px;
+  border-bottom: #107b10 5px ridge;
+}
+
+.cabecalho span {
+  color:#107b10;
+}
+
+.title{
+  float: left;
+  color: white;
+  margin: auto;
+  padding: 20px;
+  margin-left:35px ;
+}
+.nav2 ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.nav2 a {
+  text-decoration: none;
+  color:white;
+   
+}
+.nav2 a:hover{
+  color: #107b10;
+}
+
+.nav2 ul {
+  margin: 0 auto;
+  padding: 22px;
+  margin-top: 12px;
+}
+
+.nav2 {
+  float: right;
+}
+
+.image{
+  
+    float: right ;
+    
+}
+.image:hover{
+    
+    border: 8px solid #107b10;
+    border-radius: 50%;
+    
+    
+}
+.texto p {
+  float: right;
+  margin-top: 85px;
+  margin-right: 32%;
+  width: 45%;
+  height: 25%;
+  
+}
+.image2 {
+  margin-left:10%;
+  height: 125px;
+  width: 125px;
+  margin-top: 4%;
+  float: left;
+}
+.image2 img{
+  
+  margin-top: 5%;
+  max-height:125px ;
+  max-width: 125px;
+  float: right;
+}
+.img{
+  height: 50%;
+  width: 50%;
+  margin-left:15%;
+  float: left;
+}
+.img img{
+  margin-top: 8%;
+  margin-left: 18%;
+  height: 50%;
+  width: 50%;
+}
+.img{
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.img:hover{
+  -webkit-transform: scale(1.2);
+  transform: scale(1.3);
+}
+

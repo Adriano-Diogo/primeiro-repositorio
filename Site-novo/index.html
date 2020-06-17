@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./img/novo.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap" rel="stylesheet">
+    <title>BLACKROOTS</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">BLACKROOTS</div>
+            <div class="item-menu">
+                <ul>
+                    <li> <a href="index.html"> Home</a></li>
+                    <li><a href="historia.html">História</a></li>
+                    <li><a href="">Hip-Hop</a></li>
+                    <li><a href="">Sobre</a></li>
+                    <li><a href="#abrirModal_cadastro">Cadastre-se</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section id="home">
+        <div class="imagem">
+            <div class="text-conteudo cor_preto">
+                NO
+            </div>
+            <div class="text-conteudo cor_preto texto_2" >
+                FOR
+            </div>
+            <div class="introducao"><p> O hip hop é um movimento cultural da população negra, que teve início na periferia dos Estados Unidos e reúne quatro elementos principais: o grafite, o break dance, o rap e a batida mixada por um DJ. As letras e protestos da cultura hip hop serviram como um canal para denúncias contra o racismo e até hoje, ecoam gritos pela igualdade racial no mundo.</p></div>
+            </div>
+        <div class="fundo_branco">
+            <div class="img"></div>
+            <div class="text-conteudo animacao aumentar" id="flex_esquerda">
+                ROOM
+            </div>
+            <div class="text-conteudo texto_2 animacao diminuir" id="flex_esquerda">
+                RACISM
+            </div>
+            <div class="text_subtexto">"O povo ta enxergando só agora, o que o Rap já dizia a uma década."</div>
+        </div>   
+        
+         
+    </section>
+    <section id="home">
+        <div class="imagem_historia">
+            <div class="text-conteudo cor_preto historia2">
+                HIS
+            </div>
+            <a href="#abrirModal_james">
+            <div class="box" onclick="aparecer_texto(0)">
+               
+                <div class="nome"><p><span class="nome_cor">J</span>ames <span class="nome_cor">B</span>rown</p></div>
+                <div class="conteudo2">
+                    <div class="imagem_box">
+                        <img src="./img/james-brown1.jpg" alt="" class="foto">
+                        <img src="./img/james-brown.jpg" alt="" class="foto">
+                        <img src="./img/james.jpg" alt="" class="foto">
+                        <img src="./img/james1.jpg" alt="" class="foto">
+                    </div>
+                </div>
+                <div class="estilo"><p>Soul</p></div>  
+            </div>
+            </a>
+        <a href="#abrirModal_nwa">
+           <div class="box" onclick="aparecer_texto(1)">
+               <div class="nome"><p><span class="nome_cor">N</span>.W.<span class="nome_cor">A<span</p></div>
+               <div class="conteudo2">
+                
+                    <div class="imagem_box">
+                        <img src="./img/nwa.jpg" alt="" class="foto">
+                        <img src="./img/nwa2.jpeg" alt="" class="foto">
+                        <img src="./img/NWA3.jpg" alt="" class="foto">
+                        <img src="./img/nwa4.jpg" alt="" class="foto">
+                    </div>
+                
+               </div>
+               <div class="estilo"><p>Hip-Hop</p></div>
+            </div>
+        </a>
+        </div>
+        
+        <div class="fundo_branco">
+            <div class="text-conteudo animacao aumentar historia3" id="flex_esquerda">
+                TORIA
+            </div>
+
+            <div id="history">
+                
+             </div>
+            
+            </div>
+    </section>
+    <section id="home">
+        <div class="imagem_hip">
+            <div class="text-conteudo cor_preto historia2">
+                HIP
+            </div>
+            <div class="caixa-musica">
+                <div class="musicos" onclick="aparecer_musica(0)">
+                    <div class="tamanho-musica">
+                    </div>
+                    <div class="nome-artista">
+                        Tupac
+                    </div>
+            </div>
+                <div class="musicos akon" onclick="aparecer_musica(1)">
+                    <div class="tamanho-musica">
+                    </div>
+                    <div class="nome-artista">
+                        Akon
+                    </div>
+                </div>
+                <div class="musicos snoop"  onclick="aparecer_musica(2)">
+                    <div class="tamanho-musica">
+                    </div>
+                    <div class="nome-artista">
+                        Snoop Dogg
+                    </div>
+                </div>
+                <div class="musicos cent" onclick="aparecer_musica(3)">
+                    <div class="tamanho-musica">
+                    </div>
+                    <div class="nome-artista">
+                        50 Cent
+                    </div>
+                </div>
+                <div class="musicos rule" onclick="aparecer_musica(4)">
+                    <div class="tamanho-musica">
+                    </div>
+                    <div class="nome-artista">
+                        Ja Rule
+                    </div>
+                </div>
+                <div class="musicos nelly" onclick="aparecer_musica(5)">
+                    <div class="tamanho-musica">
+                    </div>
+                    <div class="nome-artista">
+                        Nelly
+                    </div>
+                </div>
+                
+                </div>
+        </div>
+        </div>
+        <div class="fundo_branco">
+            <div class="text-conteudo animacao aumentar historia3" id="flex_esquerda">
+                HOP
+            </div>
+            <div id="box_musica">
+                <div class="foto_musica" id="div_fotos"></div>
+                <div class="nome_musica" id="div_nome">ambitionz az a ridah</div>
+                <div class="play_musica">
+                    <audio src="2Pac - Ambitionz Az A Ridah (Legendado).mp3" autoplay controls muted  id="div_musica"></audio>
+                    <img class="icon" src="./img/esboco-spotify.png"/>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+    <section id="home">
+        <div class="imagem_sobre">
+            <div class="text-conteudo cor_preto historia2">
+                SO
+            </div>
+            <div class="porque"> <a href="#abrirModal">
+                Por que?</a>
+            </div>
+            <div class="somos">
+                <span class="azul">#</span><span class="preto">blake</span><span class="azul">lives</span><span class="preto">matter</span>
+            </div>
+        </div>
+        <div class="fundo_branco">
+            
+            <div class="text-conteudo animacao aumentar historia3" id="flex_esquerda">
+                BRE
+            </div>
+            <div class="racismo">
+                 <div class="frases_racismo">"Esse governo falhou com o Negro. Esta chamada democracia falhou com o Negro". 
+                     <div class="nome_artista">
+                         -Malcolm X
+                     </div>
+                </div>
+
+                <div class="frases_racismo">"Pessoas oprimidas não podem permanecer oprimidas para sempre. O anseio pela liberdade eventualmente se manifesta".
+                    <div class="nome_artista">
+                    -Martin Luther King Jr
+                    </div>
+                 </div>
+
+                <div class="frases_racismo">"O sangue, o suor, as lágrimas e o sofrimento dos negros são os alicerces da riqueza e do poder dos Estados Unidos da América. Fomos obrigados a construir a América e, se formos forçados, vamos derrubá-la".
+                     <div class="nome_artista">
+                    -Huey Newton
+                     </div>
+                 </div>
+
+                <div class="frases_racismo">"Ninguém nasce odiando o outro pela cor de sua pele, ou por sua origem, ou sua religião. Para odiar as pessoas precisam aprender, e se elas aprendem a odiar, podem ser ensinadas a amar".
+                     <div class="nome_artista">
+                    -Malcolm X
+                    </div>
+                 </div>
+            </div>
+         </div>
+           
+          
+        
+         
+    </section>
+   
+    <div id="abrirModal" class="modal">
+        
+        <div> 
+            <a href="#fechar" title="Fechar" class="fechar">X</a> 
+            
+            <div class="motivo1"> 
+                <div class="titulo_motivo">Motivo <span class="num_azul">1</span></div>
+                <p>
+                     Esse site foi desenvolvido com um intuito de mostrar um pouco da cultura Black/Afro e como ela sofreu com o racismo, sendo assim utilizando o hip-hop como exemplo, usando artistas negros como referência. Falei sobre o preconceito nesse site para mostrar que hoje em dia não está muito diferente desde os primórdios do rap, o racismo existe e não está nem perto de acabar.
+
+                </p>
+            </div>
+            <div class="vertical-line"></div>
+                <div class="imagem_motivo">
+
+                    <div class="foto2">
+                        
+                    </div>
+                </div>
+            
+            <hr class="linha">
+            <div class="motivo2">
+                <div class="titulo_motivo">Motivo <span class="num_azul">2</span></div>
+                <p>
+                    Quando criança meu pai ouvia esse estilo de música, o que me fez pegar gosto pelo hip-hop, e é uma das poucas lembranças que deixou comigo, e eu acabava escutando para amenizar a saudade, sempre escutava as músicas que me destinava a imagem dele comigo.
+                </p>
+            </div>
+        </div>
+        
+    </div>
+    <div id="abrirModal_cadastro" class="modal_cadastro">
+        
+        <div> 
+            <a href="#fechar_cadastro" title="Fechar" class="fechar_cadastro">X</a> 
+        </div>
+            
+           
+    </div>
+    <div id="abrirModal_james" class="modal_james">
+        
+        <div> 
+            <a href="#fechar_james" title="Fechar" class="fechar_james">X</a> 
+        </div>
+            
+           
+    </div>
+    <div id="abrirModal_nwa" class="modal_nwa">
+        
+        <div> 
+            <a href="#fechar_nwa" title="Fechar" class="fechar_nwa">X</a> 
+        </div>
+            
+           
+    </div>
+        
+    
+    <script src="./js/page.js"></script>
+</body>
+</html>
